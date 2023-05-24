@@ -1,7 +1,7 @@
 ﻿public class Mage : Character
 {
     //child class constructor
-    public Mage(string name, int health, int attack, int defense): base(name, health, attack, defense) { }
+    public Mage(string name, int health, int attack, int defense) : base(name, health, attack, defense) { }
 
     // Methods
     public void CastSpell(Character target)
